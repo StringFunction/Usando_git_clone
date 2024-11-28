@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: rgb(24, 24, 41);
+
+}
+
+.conteiner{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    
+    
+    
+
+}
+.titulo{
+   position: relative;
+   left: -30px;
+   margin-bottom: 10px;
+}
+.conteiner h1{
+    margin-bottom: 45px;
+    font-size: 50px;
+    font-style: oblique;
+    display: flex;
+    margin-left: -110px;
+}
+#timer{
+    display: flex;
+    gap: 2rem;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    min-width: 150px;
+    
+   
+}
+#Mili{
+    font-size: 25px;
+    display: flex;
+    align-items: self-end;
+    color:  rgb(136, 135, 135)
+
+}
+
+.buttos{
+    margin-top: 45px;
+   display: flex;
+   gap: 2rem;
+   margin-left: -110px;
+   
+
+}
+.btn{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    transform: all 0.2 ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+#btnIniciar{
+    background: rgb(32, 44, 155);
+}
+#btnContinua,#btnPausar{
+    display: none;
+}
